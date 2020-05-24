@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+.sidebar {
+	width: 20vw;
+	height: 100vh;
+	background: #192A56;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.link {
+	width: calc(90% - 20px);
+	padding: 10px 10px;
+	margin: 30px 0px;
+	text-align: right;
+	color: white;
+	font-size: 1.3em;
+	font-family: 'Tajawal', sans-serif;
+	position: relative;
+}

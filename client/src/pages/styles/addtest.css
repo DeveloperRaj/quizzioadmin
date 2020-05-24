@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mukta&display=swap');
+
+.add-test-container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	width: 70%;
+	height: 70%;
+}
+
+.form-header {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Mukta', sans-serif;
+}
+
+.add-quest-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.add-quest-container input, select {
+	width: 70%;
+	height: 40px;
+	margin: 10px 0px;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-family: 'Mukta', sans-serif;
+}
+.add-test-container button {
+	border: none;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	background: #3498DB;
+}

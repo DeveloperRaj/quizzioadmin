@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.App {
+	display: flex;
+}
+
+.app-container {
+	width: 80vw;
+	height: 100vh;
+	overflow-y: auto;
+}
